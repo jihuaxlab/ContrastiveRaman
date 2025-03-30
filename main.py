@@ -114,8 +114,8 @@ class CLR(CNNNet):
         x1 = x1.squeeze()
         x2 = self.conv(x2)
         x2 = x2.squeeze()
-        z1 = self.norm(self.lin1(x1))
-        z2 = self.norm(self.lin1(x2))
+        z1 = self.norm(x1)
+        z2 = self.norm(x2)
         z = 0.5*(z1+z2)
         x = self.lin(z)
         return x,z1,z2
