@@ -1,6 +1,6 @@
 # Contrastive learning for Raman spectroscopy
 
-Code of the contrastive learning framework for Raman spectroscopy, proposed in our [paper](https://doi.org/10.1016/j.chemolab.2025.105384). 
+Code of the contrastive learning for Raman spectroscopy, proposed in our [paper](https://doi.org/10.1016/j.chemolab.2025.105384). 
 
 ## Requirements
 
